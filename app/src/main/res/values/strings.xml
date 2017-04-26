@@ -4,4 +4,7 @@
     <string name="regis">สมัครสมาชิกใหม่</string>
     <string name="user">User :</string>
     <string name="prassword">Prassword:</string>
+    <string name="signup">signup</string>
+    <string name="nmae">nmae</string>
+    <string name="name">name</string>
 </resources>
