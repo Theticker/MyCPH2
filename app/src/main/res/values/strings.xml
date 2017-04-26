@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="login">ลงชื่อเข้าใช้</string>
+    <string name="regis">สมัครสมาชิกใหม่</string>
+    <string name="user">User :</string>
+    <string name="prassword">Prassword:</string>
+</resources>
