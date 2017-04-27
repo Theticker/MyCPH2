@@ -15,7 +15,8 @@ import com.squareup.okhttp.Response;
 public class PosData extends AsyncTask<String, Void ,String>{
 
     private Context context;
-    private static  final String urlPHP = "//http://swiftcodingthai.com/cph/addUserPrapas.php";
+    //private static  final String urlPHP = "//http://swiftcodingthai.com/cph/addUserPrapas.php";
+    private static  final String urlPHP = "//http://swiftcodingthai.com/cph/addUserMater.php";
 
     public PosData(Context context) {
         this.context = context;

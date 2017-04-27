@@ -3,4 +3,5 @@
     <dimen name="logo">300dp</dimen>
     <dimen name="margin">30dp</dimen>
     <dimen name="h2">20sp</dimen>
+    <dimen name="h1">30sp</dimen>
 </resources>

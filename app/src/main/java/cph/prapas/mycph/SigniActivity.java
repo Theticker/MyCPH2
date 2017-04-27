@@ -6,6 +6,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class SigniActivity extends AppCompatActivity implements View.OnClickListener {//
 
@@ -62,6 +63,19 @@ public class SigniActivity extends AppCompatActivity implements View.OnClickList
 
                     String result = PosData.get();
                     Log.d("26Aprilv1","result ==>" + result);
+
+                    if (Boolean.parseBoolean(result)) {
+                        // True
+                        Toast.makeText(SigniActivity.this,"Update Value to Server Ok",
+                                Toast.LENGTH_SHORT).show();
+                        finish();
+                    } else {
+                        //fale
+                        Toast.makeText(SigniActivity.this,"cannot Upload",
+                                Toast.LENGTH_SHORT).show();
+
+                    }
+
 
                 } catch (Exception e) {
                     Log.d("26Aprilv1","e SigniActivity ==>" + e.toString());
